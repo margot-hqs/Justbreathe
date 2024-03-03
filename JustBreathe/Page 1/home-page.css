@@ -1,0 +1,202 @@
+
+@font-face {
+    font-family: 'font_general';
+    src: url('../Assets/Font/Font_general.ttf');
+}
+
+@font-face {
+    font-family: 'font_titre';
+    src: url('../Assets/Font/Font_title.ttf');
+}
+
+
+* {
+    font-family: "font_general";
+}
+
+
+body{
+    margin: 0 auto;
+}
+
+/* tête de page */
+
+header.header1 {
+    display: flex;
+    align-items: center;
+}
+
+header.header1 img{
+    width: 350px;
+}
+
+
+section.top-page{
+    background: url("../Assets/Images/Background1.JPG");
+    background-size: cover;
+    min-height: 80vh;
+    padding: 25px;
+}
+
+/* page de bienvenue (landing page) */
+
+.landing-page {
+    padding: 20px 50px;
+    position: relative;
+}
+
+.landing-page img {
+    width: 15px;
+}
+
+.big-title1 {
+    color: white;
+    font-size: 80px;
+    font-family: 'font_titre', cursive;
+    font-weight: 100;
+    width: 40%;
+}
+
+.scroll-down {
+    color: white;
+    text-decoration: none;
+    bottom: 0;
+    margin-top: 50px;
+}
+
+/* menu de navigation du haut */
+
+nav.nav {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    width: 500px;
+    margin-left: 30px;
+}
+
+nav.nav li {
+    color: white;
+}
+
+nav.nav a:link,
+nav.nav a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+/* 3 "étapes" */
+
+.services {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.service-item {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-around;
+    color: black;
+}
+
+.service-item img {
+    width: 200px;
+}
+
+.service-details {
+    font-weight: 600;
+    width: 200px;
+    text-align: center;
+}
+
+
+/* Les 3 grands milieux */
+
+.section-title {
+    font-size: 50px;
+    font-family: "font_titre", cursive;
+    font-weight: 100;
+    position: relative;
+    color: black;
+}
+
+.section-title::before {
+    content: "";
+    position: absolute;
+    background-color: #006400;
+    width: 50px;
+    height: 7px;
+    bottom: 0;
+}
+
+.items {
+    margin: 100px;
+}
+
+.atmosphere {
+    min-height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.image-box {
+    position:relative ;
+    background-size: cover;
+    background-position: center;
+    min-width: 350px;
+    height: 500px;
+    flex: 1;
+}
+
+.box1 {
+    background-image: url(../Assets/Images/box1.JPG);
+}
+
+.box2 {
+    background-image: url(../Assets/Images/box2.JPG);
+}
+
+.box3 {
+    background-image: url(../Assets/Images/box3.JPG);
+}
+
+.box-details {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    background-color: #ffffffa1;
+    padding: 20px 20px;
+}
+
+.biome {
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 3px;
+}
+
+.details {
+    color: #043A29   	;
+    line-height: 3px;
+    font-size: 14px;
+    font-weight: 800;
+
+}
+
+/* Pied de page */
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2px 100px;
+    font-weight: 600;
+}
+
+footer a.cgu {
+    text-decoration: none;
+    color: black;
+}

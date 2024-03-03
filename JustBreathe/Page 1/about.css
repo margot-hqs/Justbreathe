@@ -1,0 +1,53 @@
+@font-face {
+    font-family: 'font_general';
+    src: url('../Assets/Font/Font_general.ttf');
+}
+
+@font-face {
+    font-family: 'font_titre';
+    src: url('../Assets/Font/Font_title.ttf');
+}
+
+
+* {
+    font-family: "font_general";
+}
+
+body{
+    margin: 0 auto;
+}
+
+header.header1 {
+    display: flex;
+    align-items: center;
+}
+
+header.header1 img{
+    width: 350px;
+}
+
+section.top-page2{
+    background: url("../Assets/Images/background_about.png");
+    background-size: cover;
+    min-height: 80vh;
+    padding: 25px;
+}
+
+nav.nav {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    width: 500px;
+    margin-left: 30px;
+    font-weight: 700;
+}
+
+nav.nav li {
+    color: white;
+}
+
+nav.nav a:link,
+nav.nav a:visited {
+    color: white;
+    text-decoration: none;
+}

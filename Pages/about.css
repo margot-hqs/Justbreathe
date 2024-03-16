@@ -15,6 +15,11 @@
 
 body{
     margin: 0 auto;
+    background: url("../Assets/Images/background_about0.png");
+    background-size: cover;
+    min-height: 80vh;
+    padding: 25px;
+    /* background-color: grey; */
 }
 
 header.header1 {
@@ -26,28 +31,85 @@ header.header1 img{
     width: 350px;
 }
 
-section.top-page2{
-    background: url("../Assets/Images/background_about.png");
-    background-size: cover;
-    min-height: 80vh;
-    padding: 25px;
-}
-
 nav.nav {
     display: flex;
     justify-content: space-evenly;
     list-style: none;
-    width: 500px;
+    width: 600px;
     margin-left: 30px;
-    font-weight: 700;
+    font-weight: 400;
 }
 
 nav.nav li {
     color: white;
+    transition: transform 0.3s ease-in-out;
+}
+
+nav.nav li:hover {
+    transform: scale(1.1); /* Change le niveau de zoom au survol selon tes préférences */
 }
 
 nav.nav a:link,
 nav.nav a:visited {
     color: white;
     text-decoration: none;
+}
+
+.text-box {
+    width: 50%;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.726);
+    border: 2px solid rgba(255, 255, 255, 0.164);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.8);
+    margin-bottom: 100px
+}
+  
+.text-box p {
+    font-family: font_general, cursive;
+    color: black; 
+    font-size: 22px;
+    font-weight: 300;
+    text-align: justify;
+    text-justify: inter-word;
+    line-height: 1.5;
+}
+
+.text-box p br {
+    display: block;
+    content: ""; 
+    margin-top: 0.4em; /* Espacement entre les lignes après le saut de ligne */
+}
+
+.text-box .title-box {
+    font-family: font_titre, cursive;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+}
+
+.contact {
+    width: 70%;
+    margin: 0 auto;
+    background-color: rgba(76, 77, 69, 0.418);
+    display: flex;
+}
+
+.contact-image {
+    flex: 0 0 30%;
+}
+
+.contact-image img {
+    width: 100%;
+    height: auto;
+}
+
+.contact-text {
+    text-align: center;
+    flex: 1;
+}
+
+.contact-text h2 {
+    font-family: font_titre, cursive;
 }

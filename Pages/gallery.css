@@ -1,0 +1,86 @@
+@font-face {
+    font-family: 'font_general';
+    src: url('../Assets/Font/Font_general.ttf');
+}
+
+@font-face {
+    font-family: 'font_titre';
+    src: url('../Assets/Font/Font_title.ttf');
+}
+
+
+* {
+    font-family: "font_general";
+}
+
+body{
+    margin: 0 auto;
+    background-color: grey;
+}
+
+header.header1 {
+    display: flex;
+    align-items: center;
+}
+
+header.header1 img{
+    width: 350px;
+}
+
+nav.nav {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    width: 600px;
+    margin-left: 30px;
+    font-weight: 400;
+}
+
+nav.nav li {
+    color: white;
+    transition: transform 0.3s ease-in-out;
+}
+
+nav.nav li:hover {
+    transform: scale(1.1);
+}
+
+nav.nav a:link,
+nav.nav a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'font_general';
+    margin: 0;
+    padding: 0;
+}
+
+
+.gallery {
+   line-height:2;
+   column-count:5;
+   column-gap:15px;
+   margin-left:15px;
+
+}
+
+.gallery img{
+   width: 100% !important;
+   height: auto !important;
+   margin-bottom:5px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2px 100px;
+    font-weight: 600;
+}
+
+footer a.cgu {
+    text-decoration: none;
+    color: black;
+}

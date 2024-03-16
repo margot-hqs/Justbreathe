@@ -17,6 +17,7 @@
 
 body{
     margin: 0 auto;
+    background-color: rgba(128, 128, 128, 0.582);
 }
 
 /* tête de page */
@@ -30,11 +31,10 @@ header.header1 img{
     width: 350px;
 }
 
-
 section.top-page{
     background: url("../Assets/Images/Background1.JPG");
     background-size: cover;
-    min-height: 80vh;
+    min-height: 100vh;
     padding: 25px;
 }
 
@@ -70,12 +70,18 @@ nav.nav {
     display: flex;
     justify-content: space-evenly;
     list-style: none;
-    width: 500px;
+    width: 600px;
     margin-left: 30px;
+    font-size: 16px;
 }
 
 nav.nav li {
     color: white;
+    transition: transform 0.3s ease-in-out;
+}
+
+nav.nav li:hover {
+    transform: scale(1.1); /* Change le niveau de zoom au survol selon tes préférences */
 }
 
 nav.nav a:link,
@@ -98,7 +104,7 @@ nav.nav a:visited {
 .service-item {
     display: flex;
     align-items: center;
-    width: 100%;
+    width: 60%;
     justify-content: space-around;
     color: black;
 }
@@ -108,7 +114,7 @@ nav.nav a:visited {
 }
 
 .service-details {
-    font-weight: 600;
+    font-weight: 700;
     width: 200px;
     text-align: center;
 }
@@ -133,7 +139,7 @@ nav.nav a:visited {
     bottom: 0;
 }
 
-.items {
+.types {
     margin: 100px;
 }
 
@@ -144,12 +150,28 @@ nav.nav a:visited {
 }
 
 .image-box {
-    position:relative ;
+    position: relative;
     background-size: cover;
     background-position: center;
     min-width: 350px;
     height: 500px;
     flex: 1;
+    transition: transform 0.3s ease-in-out;
+    z-index: 1; /* Ajoute cette ligne pour gérer la superposition */
+}
+
+.image-box:hover {
+    transform: scale(1.05);
+    z-index: 2; /* Ajuste le z-index au survol pour permettre à l'image de passer par-dessus les autres */
+}
+
+.image-box a, .image-box a:visited, .image-box a:hover, .image-box a:active {
+    color: inherit; 
+    text-decoration: none; 
+}
+
+.biome, .details {
+    color: #000; /* Mettez ici la couleur désirée. */
 }
 
 .box1 {
@@ -169,13 +191,14 @@ nav.nav a:visited {
     width: 100%;
     bottom: 0;
     background-color: #ffffffa1;
-    padding: 20px 20px;
+    padding: 20px 0px;
 }
 
 .biome {
     font-size: 22px;
     font-weight: 600;
     line-height: 3px;
+    margin-left: 20px;
 }
 
 .details {
@@ -183,6 +206,7 @@ nav.nav a:visited {
     line-height: 3px;
     font-size: 14px;
     font-weight: 800;
+    margin-left: 20px;
 
 }
 

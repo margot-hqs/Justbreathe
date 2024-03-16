@@ -1,0 +1,67 @@
+@font-face {
+    font-family: 'font_general';
+    src: url('../Assets/Font/Font_general.ttf');
+}
+
+@font-face {
+    font-family: 'font_titre';
+    src: url('../Assets/Font/Font_title.ttf');
+}
+
+
+* {
+    font-family: "font_general";
+}
+
+body{
+    margin: 0 auto;
+    background-color: grey;
+}
+
+header.header1 {
+    display: flex;
+    align-items: center;
+}
+
+header.header1 img{
+    width: 350px;
+}
+
+nav.nav {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    width: 600px;
+    margin-left: 30px;
+    font-weight: 400;
+}
+
+nav.nav li {
+    color: white;
+    transition: transform 0.3s ease-in-out;
+}
+
+nav.nav li:hover {
+    transform: scale(1.1); /* Change le niveau de zoom au survol selon tes préférences */
+}
+
+nav.nav a:link,
+nav.nav a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+/* Brume et lumière */
+
+.section-title {
+    font-size: 45px;
+    font-family: "font_titre", cursive;
+    font-weight: 100;
+    position: relative;
+    color: black;
+}
+
+.brume-et-lumiere {
+    margin: 50px;
+    background-color: rgba(212, 212, 212, 0.562);
+}

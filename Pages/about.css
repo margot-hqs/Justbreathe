@@ -19,7 +19,6 @@ body{
     background-size: cover;
     min-height: 80vh;
     padding: 25px;
-    /* background-color: grey; */
 }
 
 header.header1 {
@@ -79,7 +78,7 @@ nav.nav a:visited {
 .text_box p br {
     display: block;
     content: ""; 
-    margin-top: 0.4em; /* Espacement entre les lignes après le saut de ligne */
+    margin-top: 0.4em;
 }
 
 .text_box .title_box {

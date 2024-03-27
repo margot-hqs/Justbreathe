@@ -81,7 +81,7 @@ nav.nav li {
 }
 
 nav.nav li:hover {
-    transform: scale(1.1); /* Change le niveau de zoom au survol selon tes préférences */
+    transform: scale(1.1); 
 }
 
 nav.nav a:link,
@@ -157,12 +157,12 @@ nav.nav a:visited {
     height: 500px;
     flex: 1;
     transition: transform 0.3s ease-in-out;
-    z-index: 1; /* Ajoute cette ligne pour gérer la superposition */
+    z-index: 1;
 }
 
 .image-box:hover {
     transform: scale(1.05);
-    z-index: 2; /* Ajuste le z-index au survol pour permettre à l'image de passer par-dessus les autres */
+    z-index: 2; 
 }
 
 .image-box a, .image-box a:visited, .image-box a:hover, .image-box a:active {
@@ -171,19 +171,23 @@ nav.nav a:visited {
 }
 
 .biome, .details {
-    color: #000; /* Mettez ici la couleur désirée. */
+    color: #000;
 }
 
 .box1 {
-    background-image: url(../Assets/Images/box1.JPG);
+    background-image: url(../Assets/Images/brume_et_lumière/box1.JPG);
 }
 
 .box2 {
-    background-image: url(../Assets/Images/box2.JPG);
+    background-image: url(../Assets/Images/monde_du_minuscule/box2.JPG);
 }
 
 .box3 {
-    background-image: url(../Assets/Images/box3.JPG);
+    background-image: url(../Assets/Images/fil_de_l_eau/box3.JPG);
+}
+
+.box4 {
+    background-image: url(../Assets/Images/neiges_éternelles/box4.JPG);
 }
 
 .box-details {
@@ -216,11 +220,6 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 2px 100px;
-    font-weight: 600;
-}
-
-footer a.cgu {
-    text-decoration: none;
-    color: black;
+    margin: 3vh;
+    font-weight: 500;
 }

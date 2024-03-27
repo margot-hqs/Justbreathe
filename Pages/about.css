@@ -173,7 +173,7 @@ nav.nav a:visited {
 }
 
 .mail_link {
-    color: white;
+    color: rgb(199, 192, 192);
     text-decoration: none;
 }
 
@@ -194,7 +194,7 @@ nav.nav a:visited {
 }
 
 .instagram_link {
-    color: white;
+    color: rgb(199, 192, 192);
     text-decoration: none;
 }
 
@@ -213,5 +213,13 @@ nav.nav a:visited {
 .location_txt {
     font-size: 2vh;
     font-weight: 600;
-    color: white;
+    color: rgb(199, 192, 192);
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 3vh;
+    font-weight: 500;
 }

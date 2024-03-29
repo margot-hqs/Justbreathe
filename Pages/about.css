@@ -34,9 +34,8 @@ nav.nav {
     display: flex;
     justify-content: space-evenly;
     list-style: none;
-    width: 600px;
-    margin-left: 30px;
-    font-weight: 400;
+    width: 60vh;
+    font-size: 1.8vh;
 }
 
 nav.nav li {

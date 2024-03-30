@@ -23,7 +23,7 @@ body{
     background-color: rgba(128, 128, 128, 0.582);
 }
 
-/* tête de page */
+/* Header */
 
 header.header1 {
     display: flex;
@@ -41,7 +41,7 @@ section.top-page{
     padding: 25px;
 }
 
-/* page de bienvenue (landing page) */
+/* Landing page*/
 
 .landing-page {
     padding: 20px 50px;
@@ -67,7 +67,7 @@ section.top-page{
     margin-top: 50px;
 }
 
-/* menu de navigation du haut */
+/* Top navigation menu */
 
 nav.nav {
     display: flex;
@@ -92,7 +92,7 @@ nav.nav a:visited {
     text-decoration: none;
 }
 
-/* 3 "étapes" */
+/* 3 steps */
 
 .services {
     display: flex;
@@ -122,7 +122,7 @@ nav.nav a:visited {
 }
 
 
-/* Les 3 grands milieux */
+/* 3 atmospheres */
 
 .section-title {
     font-size: 50px;
@@ -216,7 +216,7 @@ nav.nav a:visited {
 
 }
 
-/* Pied de page */
+/* Footer */
 
 footer {
     display: flex;

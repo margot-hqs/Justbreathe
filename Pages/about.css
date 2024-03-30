@@ -21,6 +21,8 @@ body{
     padding: 25px;
 }
 
+/* Top navigation menu */
+
 header.header1 {
     display: flex;
     align-items: center;
@@ -52,6 +54,8 @@ nav.nav a:visited {
     color: white;
     text-decoration: none;
 }
+
+/* What's JustBreathe? */
 
 .text_box {
     width: 50%;
@@ -87,6 +91,8 @@ nav.nav a:visited {
     text-align: center;
     letter-spacing: 1px
 }
+
+/* Contact box */
 
 .contact{
     display: flex;
@@ -213,6 +219,8 @@ nav.nav a:visited {
     font-weight: 600;
     color: rgb(199, 192, 192);
 }
+
+/* Footer */
 
 footer {
     display: flex;

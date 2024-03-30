@@ -18,6 +18,8 @@ body{
     background-color: grey;
 }
 
+/* Top navigation menu */
+
 header.header1 {
     display: flex;
     align-items: center;
@@ -50,6 +52,8 @@ nav.nav a:visited {
     text-decoration: none;
 }
 
+/* The blocks of atmospheres */
+
 .theme {
     margin: 4vh;
 }
@@ -59,6 +63,7 @@ nav.nav a:visited {
     background-color: rgba(212, 212, 212, 0.562);
     padding: 0.5vh;
     margin-bottom: 3vh;
+    text-align: center;
 }
 
 .big_title {
@@ -75,10 +80,7 @@ nav.nav a:visited {
     font-size: 2vh;
     margin-left: 7vh;
     line-height: 2;
-}
-
-.indent {
-    margin-left: 5vh;
+    text-align: center;
 }
 
 .gallery {
@@ -93,8 +95,7 @@ nav.nav a:visited {
     margin-bottom:1vh;
 }
 
-
-
+/* Footer */
 
 footer {
     display: flex;
